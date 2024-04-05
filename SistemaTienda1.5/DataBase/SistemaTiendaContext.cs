@@ -23,5 +23,7 @@ namespace SistemaTienda1._5.DataBase
         }
 
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<GrupoDescuento> GrupoDescuentos { get; set; }
+
     }
 }
