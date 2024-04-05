@@ -8,11 +8,9 @@ using System.Web;
 namespace SistemaTienda1._5.Models
 {
     [Table("UnidadMedida")]
-
     public class UnidadMedida
     {
         [Key]
-
         public int UnidadMediaId { get; set; }
 
         [MaxLength(50)]
@@ -24,6 +22,5 @@ namespace SistemaTienda1._5.Models
         public bool Estado { get; set; }
 
         public DateTime FechaCreacion { get; set; }
-
     }
 }

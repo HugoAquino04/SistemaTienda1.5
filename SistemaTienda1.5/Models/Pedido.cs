@@ -8,7 +8,6 @@ using System.Web;
 namespace SistemaTienda1._5.Models
 {
     [Table("Pedido")]
-
     public class Pedido
     {
         [Key]
