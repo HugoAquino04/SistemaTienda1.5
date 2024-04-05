@@ -136,8 +136,13 @@
     <Compile Include="Migrations\202404051442039_AddicionTablaCliente.designer.cs">
       <DependentUpon>202404051442039_AddicionTablaCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404051501076_AddicionTablaGrupoDescuento.cs" />
+    <Compile Include="Migrations\202404051501076_AddicionTablaGrupoDescuento.designer.cs">
+      <DependentUpon>202404051501076_AddicionTablaGrupoDescuento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\GrupoDescuento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -225,6 +230,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202404051442039_AddicionTablaCliente.resx">
       <DependentUpon>202404051442039_AddicionTablaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404051501076_AddicionTablaGrupoDescuento.resx">
+      <DependentUpon>202404051501076_AddicionTablaGrupoDescuento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
