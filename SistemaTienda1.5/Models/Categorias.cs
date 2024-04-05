@@ -13,6 +13,8 @@ namespace SistemaTienda1._5.Models
         [Key]
         public int CategoriasId { get; set; }
 
+        //mensaje
+
         [MaxLength(50)]
         public string Codigo { get; set; }
 
