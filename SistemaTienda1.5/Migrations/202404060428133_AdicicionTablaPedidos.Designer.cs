@@ -7,13 +7,13 @@ namespace SistemaTienda1._5.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class AdicicionTablaPedidoDetalle : IMigrationMetadata
+    public sealed partial class AdicicionTablaPedidos : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AdicicionTablaPedidoDetalle));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AdicicionTablaPedidos));
         
         string IMigrationMetadata.Id
         {
-            get { return "202404060410508_AdicicionTablaPedidoDetalle"; }
+            get { return "202404060428133_AdicicionTablaPedidos"; }
         }
         
         string IMigrationMetadata.Source

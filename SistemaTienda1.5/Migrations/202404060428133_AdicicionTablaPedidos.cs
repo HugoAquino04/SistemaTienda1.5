@@ -3,23 +3,24 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class AdicicionTablaPedidoDetalle : DbMigration
+    public partial class AdicicionTablaPedidos : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.PedidoDetalle",
+                "dbo.Pedidos",
                 c => new
                     {
-                        PedidoDetalleId = c.Int(nullable: false, identity: true),
-                        PedidoId = c.Int(nullable: false),
+                        PedidosId = c.Int(nullable: false, identity: true),
+                        ClienteId = c.Int(nullable: false),
                         FechaCreacion = c.DateTime(nullable: false),
-                        ProductoId = c.Int(nullable: false),
-                        precio = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        FechaPedido = c.DateTime(nullable: false),
+                        Estado = c.Boolean(nullable: false),
+                        Total = c.Decimal(nullable: false, precision: 18, scale: 2),
                         SubTotal = c.Decimal(nullable: false, precision: 18, scale: 2),
                         Descuento = c.Decimal(nullable: false, precision: 18, scale: 2),
                     })
-                .PrimaryKey(t => t.PedidoDetalleId);
+                .PrimaryKey(t => t.PedidosId);
             
             DropTable("dbo.Pedido");
         }
@@ -41,7 +42,7 @@
                     })
                 .PrimaryKey(t => t.PedidoId);
             
-            DropTable("dbo.PedidoDetalle");
+            DropTable("dbo.Pedidos");
         }
     }
 }

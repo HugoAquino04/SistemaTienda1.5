@@ -152,9 +152,9 @@
     <Compile Include="Migrations\202404060407418_AdiccionTablaUnidadMedida.designer.cs">
       <DependentUpon>202404060407418_AdiccionTablaUnidadMedida.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202404060410508_AdicicionTablaPedidoDetalle.cs" />
-    <Compile Include="Migrations\202404060410508_AdicicionTablaPedidoDetalle.designer.cs">
-      <DependentUpon>202404060410508_AdicicionTablaPedidoDetalle.cs</DependentUpon>
+    <Compile Include="Migrations\202404060428133_AdicicionTablaPedidos.cs" />
+    <Compile Include="Migrations\202404060428133_AdicicionTablaPedidos.designer.cs">
+      <DependentUpon>202404060428133_AdicicionTablaPedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
@@ -162,6 +162,7 @@
     <Compile Include="Models\CondicionPago.cs" />
     <Compile Include="Models\GrupoDescuento.cs" />
     <Compile Include="Models\PedidoDetalle.cs" />
+    <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\UnidadMedia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -263,8 +264,8 @@
     <EmbeddedResource Include="Migrations\202404060407418_AdiccionTablaUnidadMedida.resx">
       <DependentUpon>202404060407418_AdiccionTablaUnidadMedida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404060410508_AdicicionTablaPedidoDetalle.resx">
-      <DependentUpon>202404060410508_AdicicionTablaPedidoDetalle.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202404060428133_AdicicionTablaPedidos.resx">
+      <DependentUpon>202404060428133_AdicicionTablaPedidos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
