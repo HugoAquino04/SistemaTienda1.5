@@ -20,17 +20,15 @@ namespace SistemaTienda1._5.Models
 
         public int ProductoId { get; set; }
 
-        [MaxLength(10)]
-        [MinLength(2)]
         public decimal precio { get; set; } = 0.10m;
 
-        [MaxLength(10)]
-        [MinLength(2)]
+
         public decimal SubTotal { get; set; } = 0.10m;
 
-        [MaxLength(10)]
-        [MinLength(2)]
+
         public decimal Descuento { get; set; } = 0.10m; 
+
+        //nuevo
 
     }
 }

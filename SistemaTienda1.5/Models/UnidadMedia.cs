@@ -22,5 +22,7 @@ namespace SistemaTienda1._5.Models
         public bool Estado { get; set; }
 
         public DateTime FechaCreacion { get; set; }
+        //agregar
+
     }
 }
